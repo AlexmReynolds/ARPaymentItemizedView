@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ARPaymentItemizedView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>26B6EA591D706A0F00EFFEA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26B6EA721D706A0F00EFFEA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26B6EA7D1D706A0F00EFFEA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ARPaymentSummaryItemView">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-Tq-5Rn">
+                    <rect key="frame" x="0.0" y="0.0" width="158" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WX-62-zzL">
+                    <rect key="frame" x="158" y="0.0" width="42" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ehe-Tq-5Rn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DcI-bm-TLV"/>
+                <constraint firstItem="8WX-62-zzL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RlX-8g-hUZ"/>
+                <constraint firstItem="ehe-Tq-5Rn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VIN-gE-zDJ"/>
+                <constraint firstItem="8WX-62-zzL" firstAttribute="leading" secondItem="ehe-Tq-5Rn" secondAttribute="trailing" id="W8t-iI-rAN"/>
+                <constraint firstAttribute="bottom" secondItem="ehe-Tq-5Rn" secondAttribute="bottom" id="tx2-UU-AAV"/>
+                <constraint firstAttribute="trailing" secondItem="8WX-62-zzL" secondAttribute="trailing" id="uCC-h7-HPg"/>
+                <constraint firstAttribute="bottom" secondItem="8WX-62-zzL" secondAttribute="bottom" id="wXn-7x-x7S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="amountLabel" destination="8WX-62-zzL" id="ItW-N2-F9t"/>
+                <outlet property="titleLabel" destination="ehe-Tq-5Rn" id="yf2-P0-hGW"/>
+            </connections>
+        </view>
+    </objects>
+</document>
